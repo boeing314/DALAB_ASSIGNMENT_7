@@ -89,7 +89,6 @@ Comparison of Rankings (Highest → Lowest):
 | File | Description |
 |------|------------|
 | A7.ipynb | Full implementation with visualizations and analysis |
-| README.md | This summary report |
 
 ---
 
