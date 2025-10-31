@@ -93,10 +93,3 @@ Comparison of Rankings (Highest → Lowest):
 
 ---
 
-
-## 🔖 Citation
-Blake, C. & Merz, C.J. (1998). UCI Repository of machine learning databases. University of California, Irvine.
-
----
-
-Thank you! 😊  
