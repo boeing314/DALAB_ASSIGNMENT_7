@@ -1,6 +1,6 @@
 # DA5401 A7 – Multi‑Class Model Selection using ROC & PRC
 
-## 🎯 Objective
+##  Objective
 This project performs **multi‑class land‑cover classification** using the **UCI Landsat Satellite dataset** and evaluates multiple machine learning models using:
 - **Weighted F1‑Score**
 - **Macro‑Averaged ROC‑AUC**
@@ -24,7 +24,7 @@ https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite
 
 ---
 
-## 🧪 Models Trained
+##  Models Trained
 | Model | Library | Notes |
 |-------|---------|------|
 | KNN (k=5) | sklearn | Instance‑based baseline |
@@ -33,14 +33,12 @@ https://archive.ics.uci.edu/dataset/146/statlog+landsat+satellite
 | Gaussian Naive Bayes | sklearn | Independence assumption often invalid |
 | Dummy Classifier (Prior) | sklearn | Baseline reference |
 | SVC (probability=True) | sklearn | Non‑linear kernel → expected best performance |
-| **Brownie Points** 🚀 |  |  |
 | Random Forest | sklearn | Ensemble of decision trees |
 | XGBoost | xgboost | Gradient boosting, strong model |
-| **KNN‑1 (Very‑Poor Model)** | sklearn | Overfits → worst Macro AUC |
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ###  Part A – Baseline Metrics
 - Standardization using `StandardScaler`
